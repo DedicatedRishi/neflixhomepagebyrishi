@@ -201,8 +201,8 @@ video{
     background-color: black;
     border: 1px solid white;
     border-radius: 5px;
-    margin-left: 18%;
-    margin-top: 20%;
+    margin-left: 15%;
+    margin-top: 13%;
     height: 100px;
     width: 300px;
     /* background-color: pink; */
@@ -399,7 +399,7 @@ video{
         display: inline-flex;
         /* border: 2px solid pink; */
         height: 5%;
-        width: 48%;
+        width: 60%;
         margin-top: 5px;
         padding-right: 1px;
         position: absolute;
@@ -428,8 +428,8 @@ video{
     }
     .button1{
         height: 25px;
-        width: 80px;
-        margin-left:10px;
+        width: 50px;
+        margin-left:3px;
         margin-top: 2px;
         color: white;
         font-weight: bold;
@@ -506,7 +506,7 @@ video{
         width: 50%;
         padding-top: 5%;
         text-align: center;
-
+        
     }
     .lldiv{
         position: absolute;
@@ -519,11 +519,66 @@ video{
         padding-left: 12%;
 
     }
+    .llldiv{
+        position: absolute;
+        color: white;
+        /* font-weight: bold; */
+        font-size: 8px;
+        width: 25%;
+        padding-top: 18%;
+        /* text-align: left; */
+        padding-left: 0%;
+
+    }
     .subcontainer2{
         height: 100px;
         width: 99%;
     }
     .subcontainer{
         height: 400px;
+    }
+    .mobile{
+        padding-top: 1px;
+        left: 2%;
+        height: 100px;
+    }
+    .mobdiv{
+        height: 25px;
+        width: 70px;
+        left: -23px;
+        margin-top: 60px;
+    }
+
+    .video2{
+        left: 9px;
+        height: 50px;
+    }
+    #sarak{
+        left: 30%;
+    }
+    #sarak2{
+        margin-top: -30px;
+        left: 30%;
+    }
+    #res1{
+        font-size: 5px;
+    }
+    #res2{
+        margin-top: 2px;
+        font-size: 5px;
+    }
+    #res3{
+
+        border: 1px solid blue;
+        height: 15px;
+        width: 35px;
+    }   
+    #res4{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 7px;
+        background-color: red;
+        width: 40px;
+        height: 20px;
     }
 }
