@@ -375,8 +375,67 @@ video{
     font-weight: bold;
 }
 
-::placeholder{
+::placeholder{ 
     padding-left: 10px;
     color: white;
     font-weight: bold;
+}
+
+
+
+/* responsive media query */
+@media screen and (max-width: 667px) and (min-width: 375px) {
+    .icon1{
+    
+        /* border: 2px solid pink; */
+        height: 3em;
+        width: 32%;
+        display: inline-flex;
+    }
+        
+    .icon2{
+        /* background-color: red; */
+        /* text-align: left; */
+        display: inline-flex;
+        /* border: 2px solid pink; */
+        height: 5%;
+        width: 48%;
+        margin-top: 5px;
+        padding-right: 1px;
+        position: absolute;
+        /* margin-left: 20em; */
+    }
+    
+    select:first-child{
+        border: 1px solid white;
+        /* background:transparent; */
+        color: white;
+        /* opacity: 100%; */
+        width: 100px;
+        text-align: center;
+        margin-top: 4px;
+        margin-left: 5px;
+        height: 20px;
+        padding-left: 15px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .logo{
+        position: absolute;
+        height: 20px;
+        left: 6px;
+        top: 8%;
+    }
+    .button1{
+        height: 25px;
+        width: 80px;
+        margin-left:10px;
+        margin-top: 2px;
+        color: white;
+        font-weight: bold;
+        background-color: red;
+        /* display: absolute; */
+        border-radius: 5px;
+        border: 1px solid blue;
+    }
 }
