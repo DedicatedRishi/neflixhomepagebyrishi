@@ -471,4 +471,56 @@ video{
         border-radius: 5px;
     }
 
+    .left{
+        width: 49%;
+        height: 100%;
+        display: inline-block;
+        background-color: black;
+        /* position: relative; */
+    }
+    .right{
+        display: inline-block;
+        width: 49%;
+        height: 100%;
+        /* background-color: gold; */
+    }
+
+    video{
+        position: absolute;
+        padding: 6%;
+        height: 65px;
+    }
+    .png{
+        padding-left: 10px;
+        position: absolute;
+        /* height: 500px; */
+        height: 100px;
+        /* background-color: red; */
+    }
+        
+    .ldiv{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        width: 50%;
+        padding-top: 5%;
+        text-align: center;
+
+    }
+    .lldiv{
+        position: absolute;
+        color: white;
+        /* font-weight: bold; */
+        font-size: 8px;
+        width: 25%;
+        padding-top: 10%;
+        text-align: left;
+        padding-left: 12%;
+
+    }
+    .subcontainer2{
+        height: 100px;
+        width: 99%;
+    }
 }
