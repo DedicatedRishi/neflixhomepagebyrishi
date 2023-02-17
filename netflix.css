@@ -523,4 +523,7 @@ video{
         height: 100px;
         width: 99%;
     }
+    .subcontainer{
+        height: 400px;
+    }
 }
