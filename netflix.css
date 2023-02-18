@@ -584,4 +584,77 @@ video{
     #res5{
         height: 95px;
     }
+    #res6{
+        
+        width: 50%;
+        /* background: transparent; */
+        height: 50px;
+        
+    }
+    #email{
+        position: unset;
+        width: 200px;
+        
+    }
+    .adder{
+        
+    }
+    #res7{
+        /* width: 10px; */
+        background-color: red;
+        padding-left: 0px;
+        width: 200px;
+        
+        /* position: absolute; */
+    }
+    ::placeholder{
+        padding-left: 10px;
+        color: white;
+        background:transparent;
+    }
+    #res8{
+        /* font-size: 10em; */
+        margin-top: 5px;
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+        /* background-color: red; */
+        /* display: block; */
+        
+
+    }
+    #res9{
+        margin-top: 4px;
+        font-size: 10px;
+    }
+    #res10{
+        width: 60%;
+        /* background-color: pink; */
+    }
+    #res13{
+        left: 20%;
+    }
+    .subcontainers{
+        width: 240px;
+    }
+}
+
+
+
+
+
+
+
+.res15{
+    border: 1px solide white;  height: 50px; width: 400px; background-color: #2d2d2d; border: 1px solid white; border-radius:5px; color:white;
+}
+.res14{
+    text-align: center;height: 80px; margin-top: -30px;
+}
+.res11{
+    position: absolute; color: white; font-size: 50px; font-weight: bold; width: 30%;
+}
+
+.res12{
+    position: absolute; color: white; font-size: 30px; padding-top: 12%; width: 35%;
 }
