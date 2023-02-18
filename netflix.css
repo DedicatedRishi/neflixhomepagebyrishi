@@ -118,10 +118,10 @@ input{
 }
 
 .button2{
-    height: 4em;
-    width: 15em;
-    margin-left:20px;
-    margin-top: 8px;
+    height: 3em;
+    width: 10em;
+    margin-left:0em;
+    margin-top: 3em;
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -428,7 +428,7 @@ video{
     }
     .button1{
         height: 25px;
-        width: 50px;
+        width: 70px;
         margin-left:3px;
         margin-top: 2px;
         color: white;
@@ -554,11 +554,11 @@ video{
         height: 50px;
     }
     #sarak{
-        left: 30%;
+        left: 50%;
     }
     #sarak2{
-        margin-top: -30px;
-        left: 30%;
+        margin-top: -20px;
+        left: 50%;
     }
     #res1{
         font-size: 5px;
