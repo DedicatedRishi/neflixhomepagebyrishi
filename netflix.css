@@ -637,6 +637,9 @@ video{
     .subcontainers{
         width: 240px;
     }
+    .container{
+        width: 100vw;
+    }
 }
 
 
